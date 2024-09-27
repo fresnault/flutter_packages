@@ -22,7 +22,10 @@ dependencies:
     sdk: flutter
   flutter_web_plugins:
     sdk: flutter
-  google_maps: ^7.1.0
+  google_maps:
+    git:
+      url: https://github.com/fresnault/dart-google-maps.git
+      ref: 7.1.0_any_web
   google_maps_flutter_platform_interface: ^2.7.0
   sanitize_html: ^2.0.0
   stream_transform: ^2.0.0
